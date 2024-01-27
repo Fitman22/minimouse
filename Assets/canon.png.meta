@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8d82e577d3b99e43a5bc1fd2c826920
+guid: 2fb777d577df02a4b80d05d98e8ba40e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,11 +43,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.26082656, y: 0.43265986}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -147,116 +147,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: nubes_2
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 532
-        width: 320
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 903840b8e9b3b4849a96fae31fa365d9
-      internalID: 1629111167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_6
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 258
-        width: 502
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4b4f090a91fe654283a79557a110ada
-      internalID: 1577068859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_9
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 122
-        width: 275
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bf5070b267e7e949baff6050d478a5b
-      internalID: -2081791891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_0
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 553
-        width: 225
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 565de42e8ba57694cbba01e5709ee351
-      internalID: 761570466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      nubes_0: 761570466
-      nubes_1: -173879752
-      nubes_10: 1380862662
-      nubes_11: 1213997708
-      nubes_12: -10260188
-      nubes_13: 979564367
-      nubes_2: 1629111167
-      nubes_3: -1742246127
-      nubes_4: 39637902
-      nubes_5: -106071817
-      nubes_6: 1577068859
-      nubes_7: 1496724754
-      nubes_8: -1801286398
-      nubes_9: -2081791891
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

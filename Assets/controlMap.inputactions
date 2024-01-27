@@ -1,0 +1,71 @@
+{
+    "name": "controlMap",
+    "maps": [
+        {
+            "name": "controls",
+            "id": "ec9d8750-bcf3-425d-b6e2-ae223c81cdd1",
+            "actions": [
+                {
+                    "name": "tactil",
+                    "type": "PassThrough",
+                    "id": "2782495e-44a0-4729-8f81-9e34bb33a2c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "touch",
+                    "type": "Value",
+                    "id": "8e902ad8-3285-4dc5-a2cc-bca2e540212c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "940536c9-602b-4661-9243-d1374a7624f6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "control",
+                    "action": "tactil",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "abcc7da0-c4ba-4cae-9b22-9509d7c01497",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6df6725b-792f-4469-8bd8-fcac19ccd8cc",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "control",
+            "bindingGroup": "control",
+            "devices": []
+        }
+    ]
+}
