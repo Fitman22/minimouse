@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: f5bfadf9ceb697b449e6d74d3414f771
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clownDead_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1869
+        width: 519
+        height: 529
+      alignment: 9
+      pivot: {x: 0.5467717, y: 0.1955257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962fd9da4843d9c479b7a9258119377b
+      internalID: 1788630170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1967
+        width: 492
+        height: 532
+      alignment: 9
+      pivot: {x: 0.49772903, y: 0.1240789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95de59ce49995d4b99f83abe623fe79
+      internalID: -721716103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_2
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 2014
+        width: 541
+        height: 466
+      alignment: 9
+      pivot: {x: 0.5277481, y: 0.1111481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc94691364fd785429df1cbc9119676e
+      internalID: -876324318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_3
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2012
+        width: 783
+        height: 478
+      alignment: 9
+      pivot: {x: 0.50363684, y: 0.0612472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504d06b725288f47a0f6cbdd2f9ce9c
+      internalID: -905851524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_6
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1890
+        width: 893
+        height: 604
+      alignment: 9
+      pivot: {x: 0.4993742, y: 0.1373766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a6fa4f2ed453347b75de11efdb923c
+      internalID: 1379480786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_9
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1264
+        width: 826
+        height: 505
+      alignment: 9
+      pivot: {x: 0.31120497, y: 0.1347555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a95bd067ecea0545ae30025d2225ffb
+      internalID: 1739733415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_10
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 1365
+        width: 846
+        height: 485
+      alignment: 9
+      pivot: {x: 0.2717337, y: 0.1618099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39658e5998efd8c43894c3996c15a973
+      internalID: 207276007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_14
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 1763
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff0cc410b0edc644a02541451de71ac
+      internalID: -1325106244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1289
+        width: 859
+        height: 459
+      alignment: 9
+      pivot: {x: 0.40326497, y: 0.0628176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48ce68986b1535469bf0ba942580351
+      internalID: 1510370989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_8
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1260
+        width: 816
+        height: 487
+      alignment: 9
+      pivot: {x: 0.33955488, y: 0.1223214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb27b77cb79f9242afb0d66ad862a69
+      internalID: 1996174022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_18
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1644
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a39f382fb00a3447bfbafc7bd984670
+      internalID: 1500383097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_13
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 916
+        width: 917
+        height: 299
+      alignment: 9
+      pivot: {x: 0.24183208, y: 0.0452425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80603f04b69a32c42a6bca70d46e346a
+      internalID: -1857816948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 970
+        width: 918
+        height: 299
+      alignment: 9
+      pivot: {x: 0.24843436, y: 0.0064274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab732e07cca5c794fbbcd80075fe6970
+      internalID: -1148386926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_12
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 676
+        width: 907
+        height: 481
+      alignment: 9
+      pivot: {x: 0.25906268, y: 0.124669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919a802f3280684e9219ffe485940e2
+      internalID: 240429829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 699
+        width: 893
+        height: 467
+      alignment: 9
+      pivot: {x: 0.2367995, y: 0.096228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2d45265c36074299780def6f33588
+      internalID: 1257348978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_4
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 432
+        width: 908
+        height: 298
+      alignment: 9
+      pivot: {x: 0.25183535, y: 0.0490872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077c76966a147949b479d737cfd1490
+      internalID: 1171267666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 343
+        width: 893
+        height: 299
+      alignment: 9
+      pivot: {x: 0.24441811, y: 0.0288487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145a9e5b22465ec4cb7320e6535b365e
+      internalID: 1083247910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_16
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 345
+        width: 908
+        height: 297
+      alignment: 9
+      pivot: {x: 0.25293735, y: 0.0529565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f730b63f13060904b961cdcb130256e3
+      internalID: 1553796604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 385
+        width: 909
+        height: 297
+      alignment: 9
+      pivot: {x: 0.25221768, y: 0.0495889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5893c59454a7cbf4799f5777c7831c75
+      internalID: -340398405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clownDead_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 908
+        height: 297
+      alignment: 9
+      pivot: {x: 0.2668205, y: -0.005658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b84d2722405b44b9f6c0972fc79d61
+      internalID: -1528623503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      clownDead_: -1148386926
+      clownDead_0: 1788630170
+      clownDead_1: -721716103
+      clownDead_10: 207276007
+      clownDead_11: 1257348978
+      clownDead_12: 240429829
+      clownDead_13: -1857816948
+      clownDead_14: -1325106244
+      clownDead_15: 1083247910
+      clownDead_16: 1553796604
+      clownDead_17: -340398405
+      clownDead_18: 1500383097
+      clownDead_19: -1528623503
+      clownDead_2: -876324318
+      clownDead_20: -1937622621
+      clownDead_21: 1510059186
+      clownDead_22: 1141291472
+      clownDead_23: -1525303689
+      clownDead_24: 1567704586
+      clownDead_25: -836907033
+      clownDead_26: 777943187
+      clownDead_27: -577473778
+      clownDead_28: -793243546
+      clownDead_29: -1042129413
+      clownDead_3: -905851524
+      clownDead_31: -376580303
+      clownDead_33: -1250978746
+      clownDead_36: -365615288
+      clownDead_37: 857804204
+      clownDead_38: 806697811
+      clownDead_39: 1490816738
+      clownDead_4: 1171267666
+      clownDead_44: 333762504
+      clownDead_46: -521470898
+      clownDead_47: 38448184
+      clownDead_5: -1428387117
+      clownDead_6: 1379480786
+      clownDead_7: 1510370989
+      clownDead_8: 1996174022
+      clownDead_9: 1739733415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

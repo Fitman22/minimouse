@@ -29,7 +29,7 @@ public partial class @ControlMap: IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""tactil"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Button"",
                     ""id"": ""2782495e-44a0-4729-8f81-9e34bb33a2c1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -60,8 +60,19 @@ public partial class @ControlMap: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""430a8589-2ce5-4c1c-bb3a-a6d3f7e8e446"",
+                    ""path"": ""<Touchscreen>/primaryTouch/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""tactil"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""abcc7da0-c4ba-4cae-9b22-9509d7c01497"",
-                    ""path"": ""<Touchscreen>/Press"",
+                    ""path"": ""<Touchscreen>/position"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -72,7 +83,7 @@ public partial class @ControlMap: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""6df6725b-792f-4469-8bd8-fcac19ccd8cc"",
-                    ""path"": ""<Pointer>/position"",
+                    ""path"": ""<Mouse>/position"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
