@@ -7,6 +7,9 @@ TagManager:
   - ring
   - Wall
   - tarima
+  - goal
+  - hueco
+  - Paredes
   layers:
   - Default
   - TransparentFX

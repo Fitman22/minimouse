@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Diagnostics;
 using UnityEngine;
 
 public class clown : MonoBehaviour
@@ -36,7 +37,7 @@ public class clown : MonoBehaviour
     private void stop()
     {
         rb.velocity= new Vector2(0, rb.velocity.y);
-        
+        Debug.Log("stop");
     }
     public void win()
     {
@@ -73,15 +74,20 @@ public class clown : MonoBehaviour
     }
     void  laught()
     {
-        controlAudio.instance.Laughts();
+        int c = PlayerPrefs.GetInt("Bafle");
+        if (c == 0) controlAudio.instance.Laughts();
 
-    }
-    public void clownFinish()
+    }        
+    public void cameraClown()
     {
         ClownCamera.transform.SetParent(null);
         ClownCamera.transform.eulerAngles = Vector3.zero;
         CameraController.instance.changeCamera(ClownCamera);
-        Invoke("finish2", 4);
+    }
+    public void clownFinish()
+    {
+        cameraClown();
+        Invoke("finish2", 4);   
     }
     public void winFinish()
     {
@@ -91,8 +97,12 @@ public class clown : MonoBehaviour
     {
         menu.instance.OpenMenu(0);
     }
-    void finish2()
+    protected virtual void finish2()
     {
         menu.instance.OpenMenu(1);
+        PlayerPrefs.SetInt("Bafle", 1);
+       int c = PlayerPrefs.GetInt("Bafle");
+        Debug.Log("c2:" + c);
+        PlayerPrefs.Save();
     }
 }

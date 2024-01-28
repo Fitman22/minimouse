@@ -10,23 +10,29 @@ public class tarima : MonoBehaviour
     {
         if (collision.GetComponent<clown>())
         {
-            if (hueco != null) { Instantiate(hueco, collision.transform.position, new Quaternion(0, 0, 0, 0)); }
+            GameObject h = null;
+            if (hueco != null) { h = Instantiate(hueco, collision.transform.position, new Quaternion(0, 0, 0, 0)); }
+            collision.GetComponent<clown>().cameraClown();
             Destroy(collision.gameObject);
-            Invoke("openMenu",3);
-        }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.GetComponent<clown>())
-        {
-            if(hueco != null) { Instantiate(hueco, collision.transform.position, new Quaternion(0, 0, 0, 0)); }
-           
-            Destroy(collision.gameObject);
+            int c = PlayerPrefs.GetInt("canon");
+          if(c==0)  controlAudio.instance.Laughts();
+            //Debug.Log("canon1:" + c);
             Invoke("openMenu", 3);
+            
+            PlayerPrefs.SetFloat("posx", h.transform.position.x);
+            PlayerPrefs.SetFloat("posy", h.transform.position.y);
+            PlayerPrefs.Save();
+            c = PlayerPrefs.GetInt("canon");
+            //Debug.Log("canon2:" + c);
+            
         }
     }
-    void openMenu()
+  
+   protected virtual void openMenu()
     {
-        menu.instance.OpenMenu(2);
+        Debug.Log("waosss");
+        menu.instance.OpenMenu(1);
+PlayerPrefs.SetInt("canon", 1);
+        PlayerPrefs.Save();
     }
 }

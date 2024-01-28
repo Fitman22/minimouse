@@ -147,7 +147,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mousito_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1449
+        width: 730
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dccee97eecdfa143857e4378b125150
+      internalID: -886517176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousito_1
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1420
+        width: 730
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62492c62db51acb4d81d655eb69b07fc
+      internalID: 1150224025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousito_2
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1427
+        width: 730
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cc7fd2ab99db54ab8ead3592dd41bf
+      internalID: -2124454778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousito_3
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 1433
+        width: 730
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ea33b29c856845ae2c7c1e855994a
+      internalID: 1535879995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +242,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mousito_0: -770889351
+      mousito_1: -1802588922
+      mousito_2: 569382362
+      mousito_3: 303746440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

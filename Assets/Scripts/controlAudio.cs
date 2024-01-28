@@ -5,7 +5,7 @@ using UnityEngine;
 public class controlAudio : MonoBehaviour
 {
     public static controlAudio instance;
-    [SerializeField] AudioClip win, laughts,applauses;
+    [SerializeField] AudioClip win, laughts,applauses,bruh;
     [SerializeField] GameObject laughtsObjects;
     private void Start()
     {
@@ -27,6 +27,12 @@ public class controlAudio : MonoBehaviour
     {
        
         GetComponent<AudioSource>().clip = applauses;
+        GetComponent<AudioSource>().Play();
+    }
+    public void Buuu()
+    {
+
+        GetComponent<AudioSource>().clip = bruh;
         GetComponent<AudioSource>().Play();
     }
 }

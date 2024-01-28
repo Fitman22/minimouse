@@ -7,10 +7,11 @@ using UnityEngine;
 public class tightRope : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rb;
-    [SerializeField] float speed,balance,sensibility;
+    [SerializeField] float speed,balance,sensibility,
+        min,max,timer;
     [SerializeField] List<String> animations;
-    bool Falling,onMove;
-    float startX;
+    bool Falling,onMove,onHueco;
+    float startX,time;
     private void Start()
     {
         controls.instance.Getcontrols().tactil.started += ctr => StartTought();
@@ -35,17 +36,95 @@ public class tightRope : MonoBehaviour
         x -= startX;
         Debug.Log(x * sensibility);
         balance -= x*sensibility*Time.fixedDeltaTime;
-
-      /*  if (balance <= 0)
+        balance = Mathf.Clamp(balance,-10,10);
+         if (balance <= 0 )
+          {
+              balance -= 5*Time.fixedDeltaTime; 
+          }
+          else if(balance >0){ balance += 5 * Time.fixedDeltaTime; }
+        /* if (transform.rotation.x >60 || transform.rotation.x < -60)
+         {
+             fall();
+         }
+        transform.eulerAngles = new Vector3(balance, 0, -90f);*/
+        if(balance<=-10 || balance >= 10)
         {
-            balance -= 0.1f; ;
+            time += Time.fixedDeltaTime;
         }
-        else { balance += 0.1f; }*/
-        if (transform.rotation.x >60 || transform.rotation.x < -60)
+        else { time = 0; }
+        if (time >= timer)
         {
-            fall();
+             playAnimation(2);
+          
+            rb.velocity = Vector2.zero;
+            if (GetComponent<SpriteRenderer>().flipX)
+            {
+                transform.position = new Vector2(transform.position.x,
+                    transform.position.y - 1);
+            }
+            else
+            {
+                transform.position = new Vector2(transform.position.x ,
+                    transform.position.y + 1);
+                if (onHueco) playAnimation(4);
+            }
+            Falling = true;
         }
-       transform.eulerAngles = new Vector3(balance, 0, -90f);
+        if(balance>=min && balance <=max)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+            playAnimation(0);
+            
+        }
+        else if (balance < min)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+            playAnimation(1);
+        }
+        else if(balance > max)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+            playAnimation(1);
+        }
+       
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("goal"))
+        {
+            playAnimation(3); rb.velocity = Vector2.zero;
+            Falling = true;
+            controlAudio.instance.Win();
+            Invoke("wait", 5);
+        }
+        if (collision.CompareTag("hueco"))
+        {
+            onHueco = true;
+        }
+    }
+    void deadFinish()
+    {
+        //GetComponent<SpriteRenderer>().laye = -1;
+        Invoke("win", 3);
+        controlAudio.instance.Laughts();
+    }
+    void win()
+    {
+        menu.instance.OpenMenu(1);
+       
+    }
+    void failFall()
+    {
+        Invoke("fail", 3);
+        controlAudio.instance.Buuu();
+    }
+    void fail()
+    {
+        menu.instance.OpenMenu(2);
+    }
+    void wait()
+    {
+        menu.instance.OpenMenu(0);
     }
     private void playAnimation(int anim)
     {
